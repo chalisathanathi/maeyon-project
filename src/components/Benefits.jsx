@@ -1,0 +1,24 @@
+export default function Benefits(){
+    return (
+        <div className="flex flex-col justify-center items-center gap-y-15 px-40">
+            <h2 className="text-5xl font-bold tracking-wide text-violet-900">Benefits</h2>
+            <div className="flex justify-center  items-center gap-x-15">
+                <div className="flex flex-col justify-center items-center gap-y-3">
+                    <img src="" alt="best quality" />
+                    <h5 className="text-2xl font-medium">Best Quality</h5>
+                    <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, maxime.</p>
+                </div>
+                <div className="flex flex-col justify-center items-center gap-y-3">
+                    <img src="" alt="free shipping" />
+                    <h5 className="text-2xl font-medium">Free Shipping</h5>
+                    <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, maxime.</p>
+                </div>
+                <div className="flex flex-col justify-center items-center gap-y-3">
+                    <img src="" alt="great design" />
+                    <h5 className="text-2xl font-medium">Great Design</h5>
+                    <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, maxime.</p>
+                </div>
+            </div>
+        </div>
+    )
+}
