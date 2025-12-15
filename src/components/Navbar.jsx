@@ -4,11 +4,13 @@ export function Navbar() {
   return (
     <nav>
       <ul className="flex justify-between items-center w-full bg-violet-400 h-20 text-lg font-semibold text-white tracking-widest px-30">
-        <li>
-          <Link to="/" className="">
-            <img src="" alt="logo" />
+        <div className="">
+        <li className="flex justify-center items-center">
+          <Link to="/">
+            <img src="img\My-signature.png" alt="logo" />
           </Link>
         </li>
+        </div>
         <div className="flex justify-center items-center gap-x-10">
         <li>
           <Link to="/" className="hover:text-violet-800">

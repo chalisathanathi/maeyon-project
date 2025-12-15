@@ -8,7 +8,7 @@ export default function ProductLeft1(){
                 <img src="img\pencil.png" alt="pencil" />
             </div>
             <div className="flex flex-col justify-center items-start gap-y-8 px-10 w-3/5 h-full">
-                <h4 className="text-4xl font-bold">Pencil</h4>
+                <h4 className="text-4xl font-bold">Magical Pencil</h4>
                 <Description className="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse officiis maxime aperiam vitae corrupti, nulla sapiente blanditiis ex explicabo delectus, placeat facilis voluptates tempora? Voluptatum quos fuga laborum ut molestiae!</Description>
                 <Button>Buy Now</Button>
             </div>
