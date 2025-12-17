@@ -7,6 +7,8 @@ import Benefits from "../components/Benefits";
 import Button from "../components/Button";
 import Description from "../components/Description";
 import ProductLeft1 from "../components/ProductLeft1";
+import ProductRight from "../components/ProductRight.jsx";
+import ProductLeft2 from "../components/ProductLeft2.jsx";
 
 // const API_GET = "https://jsd5-mock-backend.onrender.com/members";
 
@@ -36,13 +38,17 @@ export default function Home() {
       <section className="text-center pl-30">
         <Landing />
       </section>
-      <section className="py-15 text-center px-30 bg-violet-100">
+      <section className="py-15 text-center px-30 bg-orange-50">
         <Benefits />
       </section>
-      <section className="my-15 px-30 flex flex-col justify-center items-center gap-y-7">
-        <h3 className="font-bold text-5xl text-violet-900 tracking-wide">Best Selling</h3>
-        <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, accusamus reprehenderit, officiis maiores tempora ipsum obcaecati facere perspiciatis nisi ullam minus voluptas ab architecto quasi cum tenetur assumenda eveniet consequuntur porro accusantium voluptates corporis similique provident incidunt. Expedita, excepturi! Veniam?</p>
+      <section className="my-15 px-30 flex flex-col justify-center items-center">
+        <h3 className="font-bold text-5xl text-orange-900 tracking-wide">Best Selling</h3>
+        <p className="text-center mt-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, accusamus reprehenderit, officiis maiores tempora ipsum obcaecati facere perspiciatis nisi ullam minus voluptas ab architecto quasi cum tenetur assumenda eveniet consequuntur porro accusantium voluptates corporis similique provident incidunt. Expedita, excepturi! Veniam?</p>
         <ProductLeft1 />
+        <div className="bg-orange-50">
+            <ProductRight />
+        </div>
+        <ProductLeft2 />
       </section>
       {/* <section className="flex justify-center gap-x-3 font-bold">
         <button

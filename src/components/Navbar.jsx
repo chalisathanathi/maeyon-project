@@ -3,32 +3,32 @@ import { Link } from "react-router-dom";
 export function Navbar() {
   return (
     <nav>
-      <ul className="flex justify-between items-center w-full bg-violet-400 h-20 text-lg font-semibold text-white tracking-widest px-30">
+      <ul className="flex justify-between items-center w-full bg-orange-900 h-20 text-lg font-semibold text-white tracking-widest px-30">
         <div className="">
-        <li className="flex justify-center items-center">
+        <li className="flex justify-center items-center scale-75">
           <Link to="/">
-            <img src="img\My-signature.png" alt="logo" />
+            <img src="public\img\My-signature.png" alt="logo" />
           </Link>
         </li>
         </div>
         <div className="flex justify-center items-center gap-x-10">
         <li>
-          <Link to="/" className="hover:text-violet-800">
+          <Link to="/" className="hover:underline">
             Home
           </Link>
         </li>
         <li>
-          <Link to="/owner" className="hover:text-violet-800">
+          <Link to="/owner" className="hover:underline">
             Products
           </Link>
         </li>
         <li>
-          <Link to="/owner" className="hover:text-violet-800">
+          <Link to="/owner" className="hover:underline">
             About
           </Link>
         </li>
         <li>
-          <Link to="/owner" className="hover:text-violet-800">
+          <Link to="/owner" className="hover:underline">
             Reviews
           </Link>
         </li>
